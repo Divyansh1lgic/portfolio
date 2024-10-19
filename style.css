@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: 	#4d4d4d;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:#3c3c3c55	 ;
+}
+
+#class1 {
+    height: 100%; /* Fixing this to match the navbar */
+    width: 50%; 
+    padding-left: 110px ;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+#class1 h1{
+    font-weight: 500;
+}
+
+#class2 {
+    height: 100%; /* Fixing this to match the navbar */
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-left: 110px ;
+    padding-top: 80px; 
+}
+
+#class2 h3{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+#part0 {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+#part1 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.introline1{
+    font-size: 50px;
+    padding-left: 110px ;
+    padding-top: 160px;
+    font-weight: 400;
+    color:  rgb(25, 142, 25);
+}
+
+.introline2{
+    font-size: 70px;
+    padding-left: 110px ;
+    font-weight: 800;
+    color:  rgb(59, 55, 55);
+}
+
+.introline3{
+    font-size: 40px;
+    padding-left: 110px ;
+    font-weight: 100;
+    word-spacing: 10px;
+}
+
+.Contact{
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 110px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 181, 64);
+    border: none;
+    cursor: pointer;
+}
+
+
+#details{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 0px;
+}
+
+#email{
+    height: 100%;
+    width: 30%;
+    padding-left: 110px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+#email h3{
+    font-weight: 500;
+}
+
+#number{
+    height: 100%;
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 85px;
+    font-size: 15px;
+}
+
+#number h3{
+    font-weight: 500;
+}
+
+#location{
+    height: 100%;
+    width: 30%;
+    padding-top: 20px;
+    padding-left:0px;
+    font-size: 15px;
+}
+
+#location h3{
+    font-weight: 500;
+}
+
+#part2 {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    padding-left: 90px;
+}
+
+.part2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: 	#1e1e1e;
+    display: flex;
+}
+
+#section1{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+#myimage{
+    height: 500px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 168px;
+    background-image: url(images/WhatsApp\ Image\ 2024-10-12\ at\ 17.12.29_3696509e.jpg);
+    background-position: center;
+    background-size: cover
+}
+
+#section2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#aboutme{
+    height: 70%;
+    width: 100%;
+}
+
+.sec2part1{
+    font-size: 30px;
+    padding-top: 180px;
+    color:  rgb(25, 142, 25);
+    font-weight: 600;
+}
+
+.sec2part2{
+    font-size: 34px;
+    padding-top: 15px;
+    color:  rgb(59, 55, 55);
+    font-weight: 900;
+}
+
+.sec2part3{
+    font-size: 16px;
+    padding-top: 25px;
+    font-weight: 200;
+    padding-right: 20px;
+    line-height: 28px;
+}
+
+.downloadcv{
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 0px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 181, 64);
+    border: none;
+    cursor: pointer;
+}
+
+#credentials{
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#name{
+    height: 50%;
+    width: 50%;
+    padding-top: 35px;
+}
+
+#age{
+    height: 50%;
+    width: 50%;
+    padding-top: 35px;
+}
+
+#from{
+    height: 50%;
+    width: 50%;
+}
+
+#mail{
+    height: 50%;
+    width: 50%;
+}
+
+#page3{
+    height: 102%;
+    width: 100%;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+#page3nav{
+    height: 15%;
+    width: 100%;
+    background-color: 	#111111;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 140px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.veiwall{
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 0px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 181, 64);
+    border: none;
+    cursor: pointer;
+}
+
+#page3sec1{
+ height: 50%;
+ width: 50%;
+ background-color: 	#111111;
+}
+
+#games{
+height: 300px;
+width: 500px;
+margin-left: 120px;
+margin-top: 50px;
+background-image: url(images/Coop-games-PS5-homepage-hero-banner-keyart-01-en-02mar21.webp);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center ;
+}
+
+#text1{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#page3sec2{
+    height: 50%;
+    width: 50%;
+    background-color: 	#1e1e1e;
+}
+
+#websiteclone{
+    height: 300px;
+    width: 500px;
+    margin-left: 120px;
+    margin-top: 50px;
+    background-image: url(images/website\ clone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+
+#text2{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#page3sec3{
+    height: 50%;
+    width: 50%;
+    background-color: 	#111111;
+}
+
+#restraunt{
+    height: 300px;
+width: 500px;
+margin-left: 120px;
+margin-top: 50px;
+background-image: url(images/restraunt\ website.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center ;
+}
+
+#text3{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#page3sec4{
+    height: 50%;
+    width: 50%;
+    background-color: 	#1e1e1e;
+}
+
+#todolist{
+    height: 300px;
+width: 500px;
+margin-left: 120px;
+margin-top: 50px;
+background-image: url(images/todolist.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center ;
+}
+
+#text4{
+    margin-left: 120px;
+    margin-top: 10px;
+}

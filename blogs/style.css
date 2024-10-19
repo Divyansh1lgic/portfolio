@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: 	#1e1e1e;
+}
+
+p{
+    font-size: 70px;
+    margin-top: 70px;
+    margin-left: 100px;
+    color: beige;
+}

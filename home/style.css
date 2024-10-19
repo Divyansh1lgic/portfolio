@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: 	#1e1e1e;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#pg1right{
+    height: 100%;
+    width: 60%;
+}
+
+#pg1right h2{
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 100px;
+    padding-top:150px;
+}
+
+.pg1line1{
+    font-size: 60px;
+    font-weight: 500;
+    padding-left: 100px;
+}
+
+.pg1line2{
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 30px;
+    line-height: 35px;
+}
+
+#pg1left{
+    height: 100%;
+    width: 40%;
+}
+
+#pg1image{
+    height: 500px;
+    width: 400px;
+    margin-top: 150px; 
+    margin-left: 100px;
+    background-image: url(images/homeimg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e1e;
+}
+
+#pg2right{
+    height: 100%;
+    width: 50%;
+}
+
+.pg2rtline1{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top:283px;
+}
+
+#pg2rtdiv1{
+height: 400px;
+width: 500px;
+margin-left: 100px;
+border-top: 2px solid white;
+}
+
+.pg2rtdiv1line1{
+    font-size: 17px;
+    padding-top: 60px;
+}
+
+.pg2rtdiv1line2{
+    font-size: 17px;
+    padding-top: 60px;
+}
+
+.pg2rtdiv1line3{
+    font-size: 17px;
+    padding-top: 60px;
+}
+
+#pg2left{
+    height: 100%;
+    width: 50%;
+}
+
+.pg2ltline1{
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 100px;
+    padding-top:150px;
+}
+
+.pg2ltline2{
+    font-size: 60px;
+    font-weight: 500;
+    padding-left: 100px;
+}
+
+.pg2ltline3{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 15px;
+    
+}
+
+#pg2ltdiv1{
+    height: 400px;
+    width: 500px;
+    margin-left: 100px;
+    border-top: 2px solid white;
+}
+
+.pg2ltdiv1line1{
+    font-size: 17px;
+    padding-top: 60px;
+}
+
+.pg2ltdiv1line2{
+    font-size: 17px;
+    padding-top: 60px;
+}
+
+.pg2ltdiv1line3{
+    font-size: 17px;
+    padding-top: 60px;
+}
